@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 10px #1d1e4c solid;
+
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.top-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top-section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+}
+
+.top-section, h4{
+    font-size: 30px;
+    text-align: end;
+}
+.image-container, img{
+    height: 300px;
+    width: 320px;
+}
+.image-container, img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.about-section{
+    margin-top: 50px;
+}
+.about-section h2{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.about-section p{
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.bio-section{
+    margin: 50px 0;
+}  
+.bio-section h3{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.bio-section ul{
+    list-style-type: square;
+    margin-left: 20px;
+}
+.bio-section li{
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.footer-section{
+    text-align: center;
+    padding: 20px 0;
+    color: black;
+    text-align: right;
+}
