@@ -1,7 +1,7 @@
 # project-Demo
 This is my first Git Repository.
 <br>
-Author - Yash 
+Author - Yash Kaushik
 
 
 Steps to Create a Professional HTML & CSS Project
