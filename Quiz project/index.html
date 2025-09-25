@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Exam Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Government Examination Quiz</h1>
+            <p>Test your knowledge with this sample exam paper.</p>
+        </header>
+
+        <div id="welcome-screen" class="screen active">
+            <h2 class="sub-heading">Welcome to the Quiz!</h2>
+            <p>This quiz consists of 25 multiple-choice questions. Click 'Start Quiz' to begin. Good luck!</p>
+            <button id="start-button" class="btn">Start Quiz</button>
+        </div>
+
+        <div id="quiz-screen" class="screen">
+            <div class="question-container">
+                <div class="header-info">
+                    <span id="question-counter">Question 1/25</span>
+                    <span id="timer">Time Left: <span id="time-display">05:00</span></span>
+                </div>
+                <h3 id="question-text" class="question-text"></h3>
+                <div id="options-container" class="options-container">
+                    </div>
+                <div class="navigation-buttons">
+                    <button id="prev-button" class="btn nav-btn" disabled>Previous</button>
+                    <button id="next-button" class="btn nav-btn">Next</button>
+                    <button id="submit-button" class="btn submit-btn" style="display: none;">Submit Quiz</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="results-screen" class="screen">
+            <h2 class="sub-heading">Quiz Results</h2>
+            <div id="results-details" class="results-details">
+                <p>Total Questions: <span id="total-questions"></span></p>
+                <p>Correct Answers: <span id="correct-answers"></span></p>
+                <p>Incorrect Answers: <span id="incorrect-answers"></span></p>
+                <p>Unanswered Questions: <span id="unanswered-questions"></span></p>
+                <h3 id="final-score">Your Score: <span id="score-percentage"></span></h3>
+            </div>
+            <p id="winner-message" class="winner-message"></p>
+            <button id="restart-button" class="btn">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
